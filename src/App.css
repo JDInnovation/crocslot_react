@@ -1,0 +1,16 @@
+.App {
+  font-family: 'every', sans-serif;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@font-face {
+  font-family: 'every';
+  src: url('./components/fonts/poetsenone-regular-webfont.woff2') format('woff2'),
+       url('./components/fonts/poetsenone-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
