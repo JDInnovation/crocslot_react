@@ -6,11 +6,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow-x: hidden;
+  max-width: 100vw;
 }
+
 @font-face {
   font-family: 'every';
   src: url('./components/fonts/poetsenone-regular-webfont.woff2') format('woff2'),
-       url('./components/fonts/poetsenone-regular-webfont.woff') format('woff');
+    url('./components/fonts/poetsenone-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
