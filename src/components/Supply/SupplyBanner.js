@@ -1,10 +1,12 @@
 import React from 'react';
 
+import Banner from '../Utils/Banner';
+
 function SupplyBanner() {
   return (
-    <div className="banner supply-banner">
-      
-    </div>
+    <Banner component="supply-banner">
+
+    </Banner>
   );
 }
 
