@@ -1,10 +1,12 @@
 import React from 'react';
+import AnimatedChart from '../Chart/AnimatedChart';
+import Banner from '../Utils/Banner';
 
 function DistributionBanner() {
   return (
-    <div className="banner distribution-banner">
-      
-    </div>
+    <Banner>
+      <AnimatedChart />
+    </Banner>
   );
 }
 
