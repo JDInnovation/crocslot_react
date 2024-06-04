@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Banner from '../Utils/Banner';
-import coinImage from '../../assets/token_imagem.png';
+import coinImage from '../../assets/token_croki.gif';
 import './SupplyBanner.css';
 
 function SupplyBanner() {
