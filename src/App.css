@@ -30,7 +30,7 @@ html {
 .banner {
   position: relative;
   width: 100%;
-  min-height: 400px;
+  min-height: 100vh;
   height: fit-content;
   padding: 20px;
   display: flex;
