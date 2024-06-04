@@ -1,5 +1,5 @@
 html {
-  font-size: 16px; 
+  font-size: 16px;
 }
 
 .App {
@@ -22,7 +22,7 @@ html {
   font-style: normal;
 }
 
-.main-page{
+.main-page {
   width: 100%;
   height: 100%;
 }
@@ -30,88 +30,91 @@ html {
 .banner {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
   height: fit-content;
   padding: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  border-bottom: solid 10px #440d56;
 }
 
 .buy-now-banner {
-  background-color: #3CB043;
+  background-color: #79bf57;
 }
 
 .supply-banner {
-  background-color: #A020F0;
+  background-color: #c44bf6;
 }
 
 .community-banner {
-  background-color: #3CB043;
+  background-color: #79bf57;
 }
 
 .proposal-banner {
-  background-color: #A020F0;
+  background-color: #c44bf6;
 }
 
 .about-croki-banner {
-  background-color: #3CB043;
+  background-color: #79bf57;
 }
 
 .distribution-banner {
-  background-color: #A020F0;
+  background-color: #c44bf6;
 }
 
-.w-100{
+.w-100 {
   width: 100%;
 }
 
-.h-100{
+.h-100 {
   height: 100%;
 }
-.max-width{
+
+.max-width {
   max-width: 1920px;
 }
 
-.d-flex-row{
+.d-flex-row {
   display: flex;
   flex-direction: row;
 }
 
-.d-flex-row-r{
+.d-flex-row-r {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.d-flex-col{
+.d-flex-col {
   display: flex;
   flex-direction: column;
 }
 
-.d-flex-col-r{
+.d-flex-col-r {
   display: flex;
   flex-direction: column-reverse;
 }
 
 
-.align-center{
+.align-center {
   align-items: center;
 }
 
-.justify-center{
+.justify-center {
   justify-content: center;
 }
 
-.justify-between{
+.justify-between {
   justify-content: space-between;
 }
 
-.justify-around{
+.justify-around {
   justify-content: space-around;
 }
 
-.gif-container, .text-container {
+.gif-container,
+.text-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,6 +122,6 @@ html {
   padding: 20px;
 }
 
-.front{
+.front {
   z-index: 1;
 }
