@@ -1,12 +1,12 @@
 import React from 'react';
 import './SocialIcons.css';
-import { FaTelegramPlane, FaTwitter, FaInstagram, FaYahoo } from 'react-icons/fa';
+import { FaTelegram, FaXTwitter, FaInstagram, FaYahoo } from 'react-icons/fa6';
 
 const SocialIcons = () => {
   return (
     <div className="social-icons">
-      <FaTelegramPlane className="icon" />
-      <FaTwitter className="icon" />
+      <FaTelegram className="icon" />
+      <FaXTwitter className="icon" />
       <FaInstagram className="icon" />
     </div>
   );
