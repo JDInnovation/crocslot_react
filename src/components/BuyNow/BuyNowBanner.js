@@ -3,7 +3,7 @@ import React from 'react';
 import SocialIcons from '../SocialIcons';
 import crokiGif from '../../assets/croki.gif';
 import butterflyImage from '../../assets/butterfly.gif';
-import grass from '../../assets/grass_total5.png';
+import grass from '../../assets/grass45.png';
 
 import Banner from '../Utils/Banner';
 
