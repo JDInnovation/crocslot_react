@@ -1,7 +1,7 @@
 import React from 'react';
 
 import SocialIcons from '../SocialIcons';
-import crokiGif from '../../assets/croki.gif';
+import crokiGif from '../../assets/relvateste.png';
 import butterflyImage from '../../assets/butterfly.gif';
 import grass from '../../assets/grass45.png';
 
