@@ -1,9 +1,9 @@
 import React from 'react';
 
 import SocialIcons from '../SocialIcons';
-import crokiGif from '../../assets/relvateste.png';
+import crokiGif from '../../assets/croki.gif';
 import butterflyImage from '../../assets/butterfly.gif';
-import grass from '../../assets/grass45.png';
+import grass from '../../assets/relvateste.png';
 
 import Banner from '../Utils/Banner';
 
