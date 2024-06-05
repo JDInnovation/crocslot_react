@@ -59,4 +59,7 @@ li::marker {
         font-size: 2.4rem;
         list-style-type: none;
     }
+    .coin-image {
+        width: 250px;
+    }
 }
