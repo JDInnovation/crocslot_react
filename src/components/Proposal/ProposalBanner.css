@@ -38,7 +38,7 @@ span {
 }
 
 @media (max-width: 768px) {
-    h1{
+    .proposal-banner h1{
         font-size: 8rem;
         line-height: 120px;
     }
