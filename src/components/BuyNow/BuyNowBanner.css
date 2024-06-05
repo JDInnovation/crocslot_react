@@ -95,8 +95,7 @@ h1 {
   }
 
   .footer-text {
-    font-size: 0.8rem;
-    bottom: 0px;
+    display: none;
   }
 
   .croki-gif {
