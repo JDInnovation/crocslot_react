@@ -3,7 +3,8 @@ import React from 'react';
 import SocialIcons from '../SocialIcons';
 import crokiGif from '../../assets/croki.gif';
 import butterflyImage from '../../assets/butterfly.gif';
-import grass from '../../assets/relvateste3.png';
+import grassRight from '../../assets/grass_right1.gif';
+import grassLeft from '../../assets/grass_left1.gif';
 
 import Banner from '../Utils/Banner';
 
@@ -25,8 +26,8 @@ function BuyNowBanner() {
           <SocialIcons />
         </div>
       </div>
-      <img src={grass} className="grass" alt="Grass IMG" />
-
+      <img src={grassRight} className="grass-left" alt="Grass Left GIF" />
+      <img src={grassLeft} className="grass-right" alt="Grass Right GIF" />
       <div className="footer-text">
         5z3EqYQo9HiCEs3R84RCDMu2n7anpDMxRhdK8PSWmrRC
       </div>

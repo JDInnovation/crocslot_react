@@ -1,41 +1,87 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from 'react';
+import { Pie } from 'react-chartjs-2';
+import { Chart, registerables } from 'chart.js';
+import './AnimatedChart.css';
 
-import CanvasJSReact from '@canvasjs/react-charts';
+Chart.register(...registerables);
 
-var CanvasJS = CanvasJSReact.CanvasJS;
-var CanvasJSChart = CanvasJSReact.CanvasJSChart;
+const AnimatedChart = () => {
+  const chartContainerRef = useRef(null);
+  const [isInView, setIsInView] = useState(false);
 
-function AnimatedChart() {
+  const data = {
+    labels: ['Team', 'Liquidity Pool'],
+    datasets: [
+      {
+        data: [7.77, 92.23],
+        backgroundColor: ['#6a0dad', '#228b22'],
+        hoverBackgroundColor: ['#6a0dad', '#228b22'],
+        borderWidth: 5,
+        borderColor: '#ffffff',
+      },
+    ],
+  };
 
-const options = {
-    animationEnabled: true,
-    exportEnabled: false,
-    theme: "light1", // "light1", "dark1", "dark2"
-    backgroundColor: "#A020F0",
-    title:{
-        text: "Crokinomics",
-        fontColor: "#000000", // Customize title color
-        
-        fontSize: 20,
+  const options = {
+    animation: {
+      animateScale: true,
+      animateRotate: true,
     },
-    data: [{
-        type: "pie",
-        indexLabel: "{label}: {y}%",		
-        startAngle: -27.972,
-        dataPoints: [
-            { y: 7.77, label: "Team", color: "#6a0dad"},
-            { y: 92.23, label: "Liquidity Pool",color: "#228b22" },
-        ]
-    }]
-}
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        display: false,
+        position: 'bottom',
+        labels: {
+          color: '#000000',
+          font: {
+            size: 18,
+            ffamily: "every",
+          },
+        },
+      },
+      title: {
+        display: true,
+        text: 'Crokinomics',
+        color: '#000000',
+        font: {
+          size: 24,
+          family: "every",
+        },
+      },
+    },
+  };
 
-return (
-    <div className="h-100 w-100">
-        <CanvasJSChart options = {options}
-        /* onRef = {ref => this.chart = ref} */
-        />
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setIsInView(true);
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    if (chartContainerRef.current) {
+      observer.observe(chartContainerRef.current);
+    }
+
+    return () => {
+      if (chartContainerRef.current) {
+        observer.unobserve(chartContainerRef.current);
+      }
+    };
+  }, []);
+
+  return (
+    <div className="animated-chart" ref={chartContainerRef}>
+      {isInView && <Pie data={data} options={options} />}
     </div>
-);
-}
+  );
+};
 
 export default AnimatedChart;

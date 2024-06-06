@@ -1,0 +1,18 @@
+.animated-chart {
+    position: relative;
+    justify-self: flex-start;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  canvas {
+    background: #c44bf6;
+    border-radius: 20px;
+  }
+  
+  .chartjs-render-monitor {
+    font-family: 'every';
+  }
+  

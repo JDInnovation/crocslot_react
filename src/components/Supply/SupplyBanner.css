@@ -34,12 +34,30 @@ li {
     text-shadow: -3px 3px 0px rgba(0, 0, 0, 0.399);
     color: #69aa4a;
     -webkit-text-stroke: 2px #000000;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 li::marker {
     color: #69aa4a;
     -webkit-text-stroke: 2px #000000;
     box-shadow: -2px 2px 0px rgba(0, 0, 0, 0.399);
+    content: '●'; 
+    font-size: 1.5em; 
+    margin-right: 0.5em;
+}
+li::marker:before {
+    position: absolute;
+    left: 0;
+    content: '';
+    border: 2px solid #000000;
+    border-radius: 100%;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    padding: 0.25em;
+    line-height: 1.0;
+    margin-right: 0.5em;
 }
 
 @media (max-width: 768px) {
