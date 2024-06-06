@@ -4,7 +4,7 @@ import Banner from '../Utils/Banner';
 
 function DistributionBanner() {
   return (
-    <Banner>
+    <Banner component="distribution-banner">
       <AnimatedChart />
     </Banner>
   );
