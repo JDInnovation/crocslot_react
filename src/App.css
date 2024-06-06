@@ -128,3 +128,6 @@ html {
 .text-center{
   text-align: center;
 }
+.canvasjs-chart-credit{
+  display: none !important;
+}
