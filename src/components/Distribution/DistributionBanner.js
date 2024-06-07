@@ -11,4 +11,3 @@ function DistributionBanner() {
 }
 
 export default DistributionBanner;
-

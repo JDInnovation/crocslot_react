@@ -36,7 +36,8 @@ html {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border-bottom: solid 10px #440d56;
+  border-bottom: double    12px #440d56;
+  overflow: hidden;
 }
 
 .buy-now-banner {

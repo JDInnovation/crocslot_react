@@ -21,8 +21,10 @@ function SupplyBanner() {
         <div>
           <ul>
             <li>MINT & FREEZE REVOKED</li>
+            <li>100% LIQUIDITY POOL</li>
             <li>LIQUIDITY BURNED</li>
             <li>NO TAXES</li>
+            
           </ul>
 
         </div>
