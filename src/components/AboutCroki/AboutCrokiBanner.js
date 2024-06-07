@@ -1,11 +1,12 @@
 import React from 'react';
-
+import JupiterSwap from '../JupiterSwap';
+import Banner from '../Utils/Banner';
 
 function AboutCrokiBanner() {
   return (
-    <div>
-
-    </div>
+    <Banner component="about-croki-banner">
+      <JupiterSwap />
+    </Banner>
   );
 }
 
