@@ -24,7 +24,7 @@ function BuyNowBanner() {
             <img src={butterflyImage} alt="Butterfly IMG" className="butterfly-image" />
           </h1>
           <button className="buy-now">BUY NOW</button>
-          <SocialIcons />
+          <SocialIcons component="social-icons"/>
         </div>
       </div>
       <img src={grass} className="grass" alt="Grass Right GIF" />

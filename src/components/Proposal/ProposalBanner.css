@@ -1,5 +1,5 @@
 .proposal-banner h1 {
-    font-size: 14rem;
+    font-size: 10rem;
     max-width: 100%;
     color: #69aa4a;
     margin: 10px 0;
@@ -76,7 +76,8 @@ textarea {
     cursor: pointer;
     width: 150px;
     box-shadow: -4px 4px 0px white;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+  
 }
 .copy-button:hover{
     background-color: #2e7137;

@@ -129,7 +129,9 @@
   width: 130%;
   height: auto;
 }
-
+.social-icons{
+  z-index: 20;
+}
 @media (max-width: 768px) {
 
   .gif-container {
