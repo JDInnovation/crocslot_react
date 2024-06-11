@@ -36,7 +36,7 @@ html {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border-bottom: double    12px #440d56;
+  border-bottom: solid    12px #440d56;
   overflow: hidden;
 }
 
