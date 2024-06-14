@@ -19,7 +19,7 @@ function ProposalBanner() {
             Join us and be part of this ambitizous, innovative project that’s set to revolutionize the gabling and meme world!<br></br>
           </p>
         </div>
-        <div  className="d-flex-col justify-center align-center h-100">
+        <div  className="d-flex-col justify-center align-center">
           <img src={slotImage} className="slot-image " />
         </div>
       </div>
