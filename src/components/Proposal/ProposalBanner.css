@@ -37,6 +37,7 @@ p {
     .proposal{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
     .slot-image {
         width: 250px;
