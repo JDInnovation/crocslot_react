@@ -1,25 +1,28 @@
 import React from 'react';
 
-
-import Banner from '../Utils/Banner';
-import CopyExample from './Copy';
+import slotImage from '../../assets/slot.png';
 
 import './ProposalBanner.css';
 
+import Banner from '../Utils/Banner';
+
 function ProposalBanner() {
   return (
-    <Banner component="banner proposal-banner">
+    <Banner component="proposal-banner">
+      <div className="reverse">
+        <div className="d-flex-col align-center justify-center text-center text-box ">
+          <h1>PROPOSAL</h1>
+          <p>Beyond its viral meme appeal, Croki offers real utility. <br></br>
 
-      <div className="d-flex-col text-center align-center justify-center justify-between">
-        <h1>HOW TO BUY?</h1>
-        <h3>1. Download <span className="phantom">Phantom</span> wallet</h3>
-        <h3>2. Purchase or Receive <span className="solana">$Solana</span></h3>
-        <h3>3. Head to <span className="jupiter">Jupiter</span> Exchange </h3>
-        <h3>4. Connect wallet and swap for <span className="croki">$CROKI</span></h3>
-        <CopyExample></CopyExample>
+            Each token acts as a spin in a decentralized, open-source slot machine, providing fair winnings for gambling enthusiasts.<br></br>
+
+            Join us and be part of this ambitizous, innovative project that’s set to revolutionize the gabling and meme world!<br></br>
+          </p>
+        </div>
+        <div>
+          <img src={slotImage} className="slot-image" />
+        </div>
       </div>
-
-
     </Banner>
   );
 }
