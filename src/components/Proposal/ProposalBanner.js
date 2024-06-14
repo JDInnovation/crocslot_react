@@ -9,7 +9,7 @@ import Banner from '../Utils/Banner';
 function ProposalBanner() {
   return (
     <Banner component="proposal-banner">
-      <div className="reverse">
+      <div className="proposal justify-around align-center h-100 ">
         <div className="d-flex-col align-center justify-center text-center text-box ">
           <h1>PROPOSAL</h1>
           <p>Beyond its viral meme appeal, Croki offers real utility. <br></br>
@@ -19,8 +19,8 @@ function ProposalBanner() {
             Join us and be part of this ambitizous, innovative project that’s set to revolutionize the gabling and meme world!<br></br>
           </p>
         </div>
-        <div>
-          <img src={slotImage} className="slot-image" />
+        <div  className="d-flex-col justify-center align-center h-100">
+          <img src={slotImage} className="slot-image " />
         </div>
       </div>
     </Banner>
