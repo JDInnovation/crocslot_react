@@ -31,7 +31,7 @@ html {
   position: relative;
   width: 100%;
   height: 100vh;
-  /*padding: 20px*/
+  padding: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -49,7 +49,7 @@ html {
 }
 
 .community-banner {
-  background-color: #79bf57;
+  background-color: #c44bf6;
 }
 
 .proposal-banner {

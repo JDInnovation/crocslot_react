@@ -1,15 +1,62 @@
-#dexscreener-embed {
+.text-community p {
+    color: #2e1137;
+    font-size: 2rem;
+    text-shadow: none;
+}
+
+.text-community h1 {
+    font-size: 6rem;
+}
+
+.crokigang {
+    max-width: 800px;
+}
+
+.join-telegram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(67, 183, 232);
+    width: 500px;
+    height: 90px;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 25px;
+    border: solid black 8px;
+    font-family: 'every';
+    box-shadow: -4px 4px 0px white;
     position: relative;
-    width: 100%;
 }
-
-
-
-#dexscreener-embed iframe {
+.join-telegram:hover{
+    background-color: rgb(19, 157, 215);
+}
+.icon-community{
+    margin-left: 10px;
+    font-size: 3rem;
+}
+.butterfly-image2 {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    border: 0;
-}
+    top: -70px;
+    right: -40px;
+    width: 105px;
+    height: auto;
+  }
+
+  @media (max-width: 768px){
+    .text-community h1{
+        font-size: 4rem;
+    }
+    .text-community p{
+        font-size: 1.5rem;
+    }
+    .join-telegram{
+        max-width: 300px;
+        font-size: 1.5rem;
+        margin-top: 50px;
+    }
+    .crokigang{
+        max-width: 450px;
+    }
+  }

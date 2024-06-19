@@ -4,6 +4,8 @@ import Banner from '../Utils/Banner';
 
 import CopyExample from './Copy';
 
+import './HowtoBuyBanner.css'
+
 function HowToBuyBanner() {
   return (
     <Banner component="how-buy-banner">
