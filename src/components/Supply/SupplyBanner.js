@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import coinImage from '../../assets/supplytoken.gif';
+import coinImage from '../../assets/SPLTKN.gif';
 
 import Banner from '../Utils/Banner';
 
