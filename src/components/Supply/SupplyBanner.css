@@ -42,10 +42,11 @@ li::marker {
     color: #69aa4a;
     -webkit-text-stroke: 2px #000000;
     box-shadow: -2px 2px 0px rgba(0, 0, 0, 0.399);
-    content: '●'; 
-    font-size: 1.5em; 
+    content: '●';
+    font-size: 1.5em;
     margin-right: 0.5em;
 }
+
 li::marker:before {
     position: absolute;
     left: 0;
@@ -74,15 +75,22 @@ li::marker:before {
         justify-content: center;
         margin: 0;
         padding: 10px;
+        list-style: none;
 
     }
 
     ul li {
-        font-size: 2.4rem;
+        font-size: 1.8rem;
         list-style-type: none;
+        list-style: none;
     }
 
     .coin-image {
         width: 250px;
+        margin-top: 20px;
+    }
+
+    li::marker:before {
+        display: none;
     }
 }
