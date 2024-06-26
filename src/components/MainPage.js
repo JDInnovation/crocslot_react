@@ -13,8 +13,8 @@ function MainPage() {
       <ProposalBanner />
       <SupplyBanner />
       <CommunityBanner />
-      <HowToBuyBanner />
-      <DistributionBanner />
+      {/* <HowToBuyBanner />
+      <DistributionBanner /> */}
     </div>
   );
 }

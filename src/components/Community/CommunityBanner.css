@@ -28,6 +28,7 @@
     font-family: 'every';
     box-shadow: -4px 4px 0px white;
     position: relative;
+    text-decoration: none;
 }
 .join-telegram:hover{
     background-color: rgb(19, 157, 215);

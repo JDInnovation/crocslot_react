@@ -24,7 +24,7 @@ function CommunityBanner() {
           latest news and participate in <br></br>
           exclusive discussions.
         </p>
-        <button className="join-telegram">JOIN TELEGRAM <FaTelegram className="icon-community" /> <img src={butterflyImage} alt="Butterfly IMG" className="butterfly-image2" /> </button>
+        <a href="https://t.me/+hlC4qTlwUjYxYTg0" target="_blank" className="join-telegram">JOIN TELEGRAM <FaTelegram className="icon-community" /> <img src={butterflyImage} alt="Butterfly IMG" className="butterfly-image2" /> </a>
       </div>
 
 
