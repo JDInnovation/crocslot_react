@@ -65,6 +65,7 @@ li::marker:before {
 
     h1 {
         font-size: 8rem;
+        line-height: 190%;
     }
 
     ul {
