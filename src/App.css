@@ -132,3 +132,7 @@ html {
 .canvasjs-chart-credit{
   display: none !important;
 }
+.text-none{
+  text-decoration: none;
+  width:auto;
+}
