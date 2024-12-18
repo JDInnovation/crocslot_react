@@ -13,7 +13,7 @@ function SupplyBanner() {
 
       <div className="front align-center justify-center d-flex-col">
         <div>
-          <h1><span>777</span>M</h1>
+          <h1><span>100</span>M</h1>
         </div>
         <div>
           <h2>SUPPLY</h2>
