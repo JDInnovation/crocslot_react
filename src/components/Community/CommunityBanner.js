@@ -18,11 +18,7 @@ function CommunityBanner() {
       </div>
       <div className=" text-community  d-flex-col align-center justify-center ">
         <h1>COMMUNITY</h1>
-        <p className=" text-center align-center justify-center ">Join our Telegram group to <br></br>
-          interact with the team and other<br></br>
-          holders. Stay up to date with the <br></br>
-          latest news and participate in <br></br>
-          exclusive discussions.
+        <p className=" text-center align-center justify-center ">Become a part of the [Your Memecoin Name] family by joining our Telegram community! Engage with fellow holders, share ideas, and stay updated with the latest project developments. Our Telegram group is the heart of our community, where your voice matters and collaboration thrives. Whether you have questions, suggestions, or just want to connect, our Telegram channel is the perfect place to be involved. Click the link below to join us and help shape the future of [Your Memecoin Name] together!
         </p>
         <a href="https://t.me/+1r2tilv65PwwZmNk" target="_blank" className="join-telegram">JOIN TELEGRAM <FaTelegram className="icon-community" /> <img src={butterflyImage} alt="Butterfly IMG" className="butterfly-image2" /> </a>
       </div>
