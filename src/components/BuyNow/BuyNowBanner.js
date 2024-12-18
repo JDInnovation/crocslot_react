@@ -27,10 +27,7 @@ function BuyNowBanner() {
           <SocialIcons component="social-icons"/>
         </div>
       </div>
-      <img src={grass} className="grass" alt="Grass Right GIF" />
-{/*       <img src={grass} className="grassBack" alt="Grass Right GIF" /> */}
-      <img src={grass} className="grass1" alt="Grass Right GIF" />
-     {/*  <img src={grass} className="grassBack1" alt="Grass Right GIF" /> */}
+ 
     </Banner>
   );
 }
