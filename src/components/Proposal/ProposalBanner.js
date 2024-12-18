@@ -12,11 +12,7 @@ function ProposalBanner() {
       <div className="proposal justify-around align-center h-100 ">
         <div className="d-flex-col align-center justify-center text-center text-box ">
           <h1>PROPOSAL</h1>
-          <p>Beyond its viral meme appeal, Croki offers real utility. <br></br><br></br>
-
-            Each token acts as a spin in a decentralized, open-source slot machine, providing fair winnings for gambling enthusiasts.<br></br> <br></br>
-
-            Join us and be part of this ambitizous, innovative project that’s set to revolutionize the gabling and meme world!<br></br> <br></br>
+          <p>Welcome to $croki, the vibrant and community-powered memecoin that's redefining the crypto landscape! Born from a passion for fun and unity, our token thrives on the collective energy of its holders. There’s no complex utility—just pure, unbridled community spirit driving our journey forward. Whether you're a crypto veteran or a newcomer, join us in building something extraordinary together. Let's make [Your Memecoin Name] a symbol of what a dedicated community can achieve!<br></br>
           </p>
         </div>
         <div  className="d-flex-col justify-center align-center">
