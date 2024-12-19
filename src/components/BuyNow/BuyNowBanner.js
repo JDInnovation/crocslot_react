@@ -23,7 +23,7 @@ function BuyNowBanner() {
           <h1 className="title">CROKI
             <img src={butterflyImage} alt="Butterfly IMG" className="butterfly-image" />
           </h1>
-          <a className="text-none" href="https://jup.ag/swap/SOL-EnPfsGJJSqQGyTiF4YSZtU538fVou2rikXcwmXbvb87G" target="_blank"><button className="buy-now">BUY NOW</button></a>
+          <a className="text-none" href="https://t.me/crokiportal" target="_blank"><button className="buy-now">BUY NOW</button></a>
           <SocialIcons component="social-icons"/>
         </div>
       </div>
